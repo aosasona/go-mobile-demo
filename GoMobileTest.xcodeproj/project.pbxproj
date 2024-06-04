@@ -11,6 +11,8 @@
 		EA6F84692C0FAD9700E98EC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6F84682C0FAD9700E98EC3 /* ContentView.swift */; };
 		EA6F846B2C0FAD9800E98EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6F846A2C0FAD9800E98EC3 /* Assets.xcassets */; };
 		EA6F846F2C0FAD9800E98EC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6F846E2C0FAD9800E98EC3 /* Preview Assets.xcassets */; };
+		EADDE8432C0FB0770014C429 /* Shared.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EADDE8422C0FB0770014C429 /* Shared.xcframework */; };
+		EADDE8452C0FB08D0014C429 /* Shared.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EADDE8442C0FB08D0014C429 /* Shared.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		EA6F846A2C0FAD9800E98EC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA6F846C2C0FAD9800E98EC3 /* GoMobileTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoMobileTest.entitlements; sourceTree = "<group>"; };
 		EA6F846E2C0FAD9800E98EC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EADDE8422C0FB0770014C429 /* Shared.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Shared.xcframework; sourceTree = SOURCE_ROOT; };
+		EADDE8442C0FB08D0014C429 /* Shared.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Shared.xcframework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +31,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EADDE8452C0FB08D0014C429 /* Shared.xcframework in Frameworks */,
+				EADDE8432C0FB0770014C429 /* Shared.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +42,7 @@
 		EA6F845A2C0FAD9700E98EC3 = {
 			isa = PBXGroup;
 			children = (
+				EADDE8442C0FB08D0014C429 /* Shared.xcframework */,
 				EA6F84652C0FAD9700E98EC3 /* GoMobileTest */,
 				EA6F84642C0FAD9700E98EC3 /* Products */,
 			);
@@ -64,6 +71,7 @@
 		EA6F846D2C0FAD9800E98EC3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				EADDE8422C0FB0770014C429 /* Shared.xcframework */,
 				EA6F846E2C0FAD9800E98EC3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";

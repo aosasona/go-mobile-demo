@@ -6,19 +6,31 @@
 //
 
 import SwiftUI
+import Shared
 
 struct ContentView: View {
+    @State var result: Int
+    
+    func sum(_ a: Int, _ b: Int) {
+        result = Shared.SharedSum(a, b)
+    }
+    
+    func minus(_ a: Int, _ b: Int) {
+        result = Shared.SharedDiff(a, b)
+    }
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("\(result)")
+            
+            Button(action: { sum(4, 8) }) {
+                Text("Run")
+            }
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(result: 0)
 }

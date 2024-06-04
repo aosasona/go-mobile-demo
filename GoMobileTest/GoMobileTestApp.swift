@@ -11,7 +11,7 @@ import SwiftUI
 struct GoMobileTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(result: 0)
         }
     }
 }
